@@ -5,16 +5,25 @@
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(39,39,99,0.9836309523809523) 35%, rgba(0,212,255,1) 100%);
 }
 
+.col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .bookCard {
-  width: 20%;
+  width: 20rem;
+  margin: 10px;
   .add_cart_btn {
-    display: none;
+    opacity: 0;
+    outline: none;
   }
 }
 
 .bookCard:hover {
   .add_cart_btn {
-    display: block;
+    opacity: 1;
+    outline: none;
   }
 }
 
@@ -31,9 +40,28 @@
 
 .cart_icon {
   font-size: xxx-large;
+  color: white;
 }
 
 .main {
   display: flex;
   margin: 1rem;
+}
+
+.add_cart_btn{
+  margin: 1rem;
+}
+
+.bookImage {
+  margin: 1rem 0 0 1rem;
+}
+
+.card-body {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .App {
+    height: 130vh;
+  };
 }

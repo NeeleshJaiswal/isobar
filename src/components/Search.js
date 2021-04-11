@@ -7,7 +7,7 @@ const Search = ({books, setBooks}) => {
     const [booksInit, setBooksInit] = useState(books);
 
     useEffect(() => {
-        inputValue ? setBooks(booksInit.filter((book) => book.name.includes(inputValue))) : setBooks(booklist)
+        inputValue ? setBooks(booksInit.filter((book) => book.name.toLowerCase().includes(inputValue.toLowerCase()))) : setBooks(booklist)
     }, [inputValue])
 
     return (

@@ -21,7 +21,7 @@ export const booklist = [
       "author": "Alan Smith",
       "publishDate": "04/12/2018",
         "duration": "00:02:11",
-      "image": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+      "image": "https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png"
     },
     {
       "name": "JS - Zero to hero",
@@ -29,7 +29,7 @@ export const booklist = [
       "author": "Sarah Parker",
       "publishDate": "12/03/2019",
         "duration": "01:01:35",
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"
+      "image": "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png"
     }
   ];
 

@@ -1,7 +1,7 @@
 @import './styles/alerts';
 
 .App {
-  //height: 100vh;
+  min-height: 100vh;
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(39,39,99,0.9836309523809523) 35%, rgba(0,212,255,1) 100%);
   background-size: 100% auto;
 }
@@ -57,8 +57,3 @@
   margin: 1rem 0 0 1rem;
 }
 
-//@media (max-width: 991px) {
-//  .App {
-//    height: 130vh;
-//  };
-//}
